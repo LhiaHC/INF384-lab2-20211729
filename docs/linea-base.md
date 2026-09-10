@@ -5,9 +5,9 @@ sin modificar ningun archivo del repositorio. Registrar aqui los resultados.
 
 | Ejecucion | Duracion | URL |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | 57 s| https://github.com/LhiaHC/INF384-lab2-20211729/actions/runs/34438797307|
+| 2 | 54 s | https://github.com/LhiaHC/INF384-lab2-20211729/actions/runs/34438936430 |
+| 3 | 54 s | https://github.com/LhiaHC/INF384-lab2-20211729/actions/runs/34439041202 |
 
 ## Declaracion de uso de IA generativa
 
