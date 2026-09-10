@@ -81,3 +81,23 @@ def desglose(envio: Envio) -> dict[str, float]:
         "factor_zona": factor,
         "total": calcular(envio),
     }
+""" funcion defectuosa """
+def calcular_descuento(monto: float) -> float:
+    descuento = 0.0
+
+    if monto >= 1000:
+        descuento = 0.20
+    elif monto >= 500:
+        descuento = 0.10
+    else:
+        descuento = 0.05
+
+    if monto <= 0:
+        return 0.0
+
+    total = monto - (monto * descuento)
+
+    if total < 0:
+        return 0.0
+
+    return round(total, 2)
